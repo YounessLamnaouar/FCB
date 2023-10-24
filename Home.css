@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+}
+.B{
+    margin-right: 90%;
+    font-size: 20px;
+}
+body{
+    background-image: url("http://images2.fanpop.com/image/photos/11300000/Fc-Barcelona-Champions-League-Wallpaper-fc-barcelona-11305289-1366-768.jpg");
+    background-size: 100%;
+    text-align: right;
+    font-family: fantasy;
+    position: relative;
+}
+.menu nav ul li{
+    display: inline-block;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 20px;
+    
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+p{
+    margin-right: 80%;
+    margin-top: 10%;
+    font-size: 80px;
+    color: rgb(181, 181, 0);
+}
+p:hover{
+    color: rgb(121, 6, 6);
+    transition: 1s ease-in-out;
+}
+.img{
+    margin-bottom: 100%;
+    position: absolute;
+    top: 55px;
+    right: 10px;
+}

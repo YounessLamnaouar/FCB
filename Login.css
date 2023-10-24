@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+}
+body{
+    background-image: url("https://wallpaperaccess.com/full/1105705.jpg");
+    background-size: 100%;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    margin-left: 0;
+}
+a:hover{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+    background-color: rgba(0, 0, 255, 0.232);
+    
+}
+input{
+    color: blue;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 500px;
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color:transparent;
+    border: 5px white;
+    border-style: dashed;
+    font-size: 15px;
+    transition: 2s;
+}
+input:hover{
+    border: 5px rgb(107, 35, 35) solid;
+    background: rgba(0, 0, 255, 0.348);
+}
+input[type="submit"]{
+    margin-left: 550px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: white;
+}
+.next a{
+    margin-left: 1000px;
+    
+}
+.next a:hover{
+    font-size: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.232);
+}

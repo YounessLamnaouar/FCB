@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url("https://images5.alphacoders.com/985/thumb-1920-985037.jpg");
+    background-size: 400px;
+    background-repeat: repeat-x;
+    background-color: black;
+}
+.logo .img{
+    width:300px;
+    margin-top: 25%;
+    margin-left: 20%;
+}
+.logo .img:hover{
+    width:500px;
+    margin-top: 20%;
+    margin-left: 10%;
+    border: 5px solid rgb(10, 13, 189);
+    transition: 2s ease-in-out;
+    transform-style: preserve-3d;
+    border-style: ridge;
+}
+.container a{
+    text-decoration: none;
+    color: rgb(10, 13, 189);
+    font-size: 30px;
+    font-family: fantasy;
+    border: 10px solid rgb(10, 13, 189);
+    background-color: rgb(255, 255, 255);
+    margin-left: 60%;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+}
+.container a:hover{
+    color: white;
+    font-size: 35px;
+    padding-top: 14px;
+    padding-left: 67px;
+    padding-right: 67px;
+    background-color: rgb(181, 48, 134);
+    border:10px double rgb(10, 13, 189);
+    transition: 3.5s;
+}
